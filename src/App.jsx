@@ -8,7 +8,7 @@ function App() {
         <div className="App">
             <Sidebar />
             <div className="content">
-                <h1>Weapon Management System</h1>
+                <h1>Welcome to management </h1>
             </div>
         </div>
     );
