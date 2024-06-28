@@ -1,17 +1,12 @@
-// src/App.jsx
-
 import React from 'react';
-import Sidebar from './Components/Sidebar';
-
-function App() {
-    return (
-        <div className="App">
-            <Sidebar />
-            <div className="content">
-                <h1>Welcome to management </h1>
-            </div>
-        </div>
-    );
-}
+import AdminLogin from './AdminLogin';
+import './App.css'; // Adjust the path if necessary
+const App = () => {
+  return (
+    <div className="App">
+      <AdminLogin />
+    </div>
+  );
+};
 
 export default App;
